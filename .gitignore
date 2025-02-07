@@ -1,0 +1,7 @@
+*.o
+main
+*/*.o
+*/*.a
+*/libs.txt
+targets.txt
+_in_progress

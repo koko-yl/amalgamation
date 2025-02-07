@@ -1,0 +1,16 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-I/usr/lib/jvm/default/include/",
+      "-I/usr/lib/jvm/default/include/linux",
+      "-c",
+      "-o",
+      "kotlin.o",
+      "bridge.c"
+    ],
+    "directory": "/home/komali/amalg/kotlin",
+    "file": "/home/komali/amalg/kotlin/bridge.c",
+    "output": "/home/komali/amalg/kotlin/kotlin.o"
+  }
+]
