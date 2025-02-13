@@ -26,6 +26,7 @@ void java() {
         (*env)->CallStaticVoidMethod(env, cls, mid, NULL);
         (*vm)->DestroyJavaVM(vm);
         exit(0);
-    } else
+    } 
+    else
         wait(0);
 }
