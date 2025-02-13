@@ -16,4 +16,4 @@ SourceKt.class: source.kt
 
 .PHONY: clean
 clean:
-	rm -f source.class libs.txt kotlin.o kotlin.h
+	rm -f source.class libs.txt kotlin.o kotlin.h SourceKt.class

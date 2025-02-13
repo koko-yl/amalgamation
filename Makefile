@@ -7,6 +7,6 @@ main.o: main.c
 
 -include targets.txt
 clean:
-	rm -f $(shell python3 helper.py clean) targets.txt main main.o $(wildcard */*.o)
+	rm -f $(shell python3 helper.py clean) targets.txt main main.o $(wildcard */*.o) $(wildcard */*.class)
 clean_temps:
-	rm -rf $(wildcard */compile_commands.json)
+	rm -rf $(wildcard */compile_commands.json) $(wildcard */.cache) $(wildcard */test.c) $(wildcard */a.out)
