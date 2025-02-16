@@ -1,0 +1,16 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I/usr/include/node",
+      "-std=c++20",
+      "-c",
+      "-o",
+      "typescript.o",
+      "bridge.cpp"
+    ],
+    "directory": "/home/komali/amalg/typescript",
+    "file": "/home/komali/amalg/typescript/bridge.cpp",
+    "output": "/home/komali/amalg/typescript/typescript.o"
+  }
+]
