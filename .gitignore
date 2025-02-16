@@ -2,6 +2,7 @@
 main
 */*.o
 */*.a
+*/*.class
 */libs.txt
 targets.txt
 _in_progress
